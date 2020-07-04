@@ -10,8 +10,6 @@ class spi_environment extends uvm_env;
   virtual spi_interface vif;
   
   `uvm_component_utils(spi_environment)
-//  `uvm_field_object(agt,UVM_ALL_ON)
- // `uvm_component_utils_end
   
   //---------------------------------------
   //Constructor
